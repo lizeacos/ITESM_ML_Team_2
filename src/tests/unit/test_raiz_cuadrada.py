@@ -1,9 +1,9 @@
 import pytest
 from src.calculadora.Operaciones.raiz_cuadrada import raiz_cuadrada
 
-def datos_test_unit(num):
+def datos_test_unit():
     return [
-        25
+        25, 5
     ]
 
 @pytest.mark.parametrize(
